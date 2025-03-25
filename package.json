@@ -1,0 +1,28 @@
+{
+  "name": "semantic-release-pnpm",
+  "version": "0.0.0",
+  "description": "A semantic-release plugin for PNPM monorepos.",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "keywords": [
+    "semantic-release",
+    "pnpm",
+    "monorepo",
+    "plugin"
+  ],
+  "author": "gdostie",
+  "license": "MIT",
+  "peerDependencies": {
+    "semantic-release": "^24.2.3"
+  },
+  "devDependencies": {
+    "ava": "^6.2.0",
+    "eslint": "^9.23.0",
+    "sinon": "^20.0.0"
+  }
+}
